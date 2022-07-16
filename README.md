@@ -1,6 +1,7 @@
+FORKED FROM FaridSafi
 <p align="center" >
 <p align="center" >
-   <a href="https://reactnative.gallery/FaridSafi/gifted-chat">
+   <a href="https://reactnative.gallery/0strich/gifted-chat">
     <img alt="react-native-gifted-chat" src="https://thumbs.gfycat.com/AbsoluteSadDobermanpinscher-size_restricted.gif" width="260" height="510" />
  </a>
 
@@ -16,13 +17,13 @@
   <a href="https://www.npmjs.com/package/react-native-gifted-chat">
   <img alt="npm downloads" src="https://img.shields.io/npm/dm/react-native-gifted-chat.svg"/></a>
   <a href="https://www.npmjs.com/package/react-native-gifted-chat"><img alt="npm version" src="https://badge.fury.io/js/react-native-gifted-chat.svg"/></a>
-   <a href="https://reactnative.gallery/FaridSafi/gifted-chat"><img src="https://img.shields.io/badge/reactnative.gallery-%F0%9F%8E%AC-green.svg"/></a>
+   <a href="https://reactnative.gallery/0strich/gifted-chat"><img src="https://img.shields.io/badge/reactnative.gallery-%F0%9F%8E%AC-green.svg"/></a>
 
 </p>
 <p align="center">
-  <a href="https://circleci.com/gh/FaridSafi/react-native-gifted-chat"><img src="https://circleci.com/gh/FaridSafi/react-native-gifted-chat.svg?style=shield" alt="build"></a>
-  <a href="https://travis-ci.org/FaridSafi/react-native-gifted-chat"><img src="https://api.travis-ci.org/FaridSafi/react-native-gifted-chat.svg" alt="deployed"></a>
-  <a title='License' href="https://github.com/FaridSafi/react-native-gifted-chat/blob/master/LICENSE" height="18">
+  <a href="https://circleci.com/gh/0strich/react-native-gifted-chat"><img src="https://circleci.com/gh/0strich/react-native-gifted-chat.svg?style=shield" alt="build"></a>
+  <a href="https://travis-ci.org/0strich/react-native-gifted-chat"><img src="https://api.travis-ci.org/0strich/react-native-gifted-chat.svg" alt="deployed"></a>
+  <a title='License' href="https://github.com/0strich/react-native-gifted-chat/blob/master/LICENSE" height="18">
     <img src='https://img.shields.io/badge/license-MIT-blue.svg' />
   </a>
   <a href="#hire-an-expert"><img src="https://img.shields.io/badge/%F0%9F%92%AA-hire%20an%20expert-brightgreen"/></a>
@@ -41,7 +42,7 @@
 <p align="center">
   <br/>
   <a href="https://www.lereacteur.io" target="_blank">
-    <img src="https://raw.githubusercontent.com/FaridSafi/react-native-gifted-chat/master/media/logo_sponsor.png">
+    <img src="https://raw.githubusercontent.com/0strich/react-native-gifted-chat/master/media/logo_sponsor.png">
   </a>
   <br>
   <p align="center">
@@ -81,7 +82,7 @@
 </p>
 
 ## The future of GiftedChat 🎉 
-Please give us your advice: [Related PR](https://github.com/FaridSafi/react-native-gifted-chat/pull/1775)
+Please give us your advice: [Related PR](https://github.com/0strich/react-native-gifted-chat/pull/1775)
 
 ## Please vote
 
@@ -191,7 +192,7 @@ export function Example() {
 
 ## Advanced example
 
-See [`App.tsx`](https://github.com/FaridSafi/react-native-gifted-chat/blob/master/example/App.tsx) for a working demo!
+See [`App.tsx`](https://github.com/0strich/react-native-gifted-chat/blob/master/example/App.tsx) for a working demo!
 
 ## "Slack" example
 
@@ -255,7 +256,7 @@ export interface IMessage {
 
 > e.g. Chat Message with Quick Reply options
 
-See PR [#1211](https://github.com/FaridSafi/react-native-gifted-chat/pull/1211)
+See PR [#1211](https://github.com/0strich/react-native-gifted-chat/pull/1211)
 
 ```ts
 interface Reply {
@@ -356,7 +357,7 @@ interface QuickReplies {
 - **`renderTicks`** _(Function(`message`))_ - Custom ticks indicator to display message status
 - **`renderSystemMessage`** _(Function)_ - Custom system message
 - **`onPress`** _(Function(`context`, `message`))_ - Callback when a message bubble is pressed
-- **`onLongPress`** _(Function(`context`, `message`))_ - Callback when a message bubble is long-pressed; default is to show an ActionSheet with "Copy Text" (see [example using `showActionSheetWithOptions()`](https://github.com/FaridSafi/react-native-gifted-chat/blob/master@%7B2017-09-25%7D/src/Bubble.js#L96-L119))
+- **`onLongPress`** _(Function(`context`, `message`))_ - Callback when a message bubble is long-pressed; default is to show an ActionSheet with "Copy Text" (see [example using `showActionSheetWithOptions()`](https://github.com/0strich/react-native-gifted-chat/blob/master@%7B2017-09-25%7D/src/Bubble.js#L96-L119))
 - **`inverted`** _(Bool)_ - Reverses display order of `messages`; default is `true`
 - **`renderUsernameOnMessage`** _(Bool)_ - Indicate whether to show the user's username inside the message bubble; default is `false`
 - **`renderMessage`** _(Function)_ - Custom message container
@@ -376,7 +377,7 @@ interface QuickReplies {
 - **`renderInputToolbar`** _(Function)_ - Custom message composer container
 - **`renderComposer`** _(Function)_ - Custom text input message composer
 - **`renderActions`** _(Function)_ - Custom action button on the left of the message composer
-- **`renderSend`** _(Function)_ - Custom send button; you can pass children to the original `Send` component quite easily, for example, to use a custom icon ([example](https://github.com/FaridSafi/react-native-gifted-chat/pull/487))
+- **`renderSend`** _(Function)_ - Custom send button; you can pass children to the original `Send` component quite easily, for example, to use a custom icon ([example](https://github.com/0strich/react-native-gifted-chat/pull/487))
 - **`renderAccessory`** _(Function)_ - Custom second line of actions below the message composer
 - **`onPressActionButton`** _(Function)_ - Callback when the Action button is pressed (if set, the default `actionSheet` will not be used)
 - **`bottomOffset`** _(Integer)_ - Distance of the chat from the bottom of the screen (e.g. useful if you display a tab bar)
@@ -466,7 +467,7 @@ If you use React Navigation, additional handling may be required to account for 
 
 - adding an opaque background status bar on app.json (even though `android:windowSoftInputMode="adjustResize"` is set internally on Expo's Android apps, the translucent status bar causes it not to work): https://docs.expo.io/versions/latest/guides/configuration.html#androidstatusbar
 
-- If you plan to use `GiftedChat` inside a `Modal`, see [#200](https://github.com/FaridSafi/react-native-gifted-chat/issues/200).
+- If you plan to use `GiftedChat` inside a `Modal`, see [#200](https://github.com/0strich/react-native-gifted-chat/issues/200).
 
 ## Notes for local development
 
@@ -520,15 +521,15 @@ module.exports = function override(config, env) {
 
 ## Questions
 
-- [How can I set Bubble color for each user?](https://github.com/FaridSafi/react-native-gifted-chat/issues/672)
-- [How can I pass style props to InputToolbar design and customize its color and other styles properties?](https://github.com/FaridSafi/react-native-gifted-chat/issues/662)
-- [How can I change the color of the message box?](https://github.com/FaridSafi/react-native-gifted-chat/issues/640)
-- [Is there a way to manually dismiss the keyboard?](https://github.com/FaridSafi/react-native-gifted-chat/issues/647)
+- [How can I set Bubble color for each user?](https://github.com/0strich/react-native-gifted-chat/issues/672)
+- [How can I pass style props to InputToolbar design and customize its color and other styles properties?](https://github.com/0strich/react-native-gifted-chat/issues/662)
+- [How can I change the color of the message box?](https://github.com/0strich/react-native-gifted-chat/issues/640)
+- [Is there a way to manually dismiss the keyboard?](https://github.com/0strich/react-native-gifted-chat/issues/647)
 - [I want to implement a popover that pops right after clicking on a specific avatar,
-  what is the best implementation in this case and how?](https://github.com/FaridSafi/react-native-gifted-chat/issues/660)
-- [Why TextInput is hidden on Android?](https://github.com/FaridSafi/react-native-gifted-chat/issues/680#issuecomment-359699364)
-- [How to use renderLoading?](https://github.com/FaridSafi/react-native-gifted-chat/issues/298)
-- [Can I use MySql to save the message?](https://github.com/FaridSafi/react-native-gifted-chat/issues/738)
+  what is the best implementation in this case and how?](https://github.com/0strich/react-native-gifted-chat/issues/660)
+- [Why TextInput is hidden on Android?](https://github.com/0strich/react-native-gifted-chat/issues/680#issuecomment-359699364)
+- [How to use renderLoading?](https://github.com/0strich/react-native-gifted-chat/issues/298)
+- [Can I use MySql to save the message?](https://github.com/0strich/react-native-gifted-chat/issues/738)
 
 ## License
 
@@ -536,7 +537,7 @@ module.exports = function override(config, env) {
 
 ## Author
 
-Feel free to ask me questions on Twitter [@FaridSafi](https://www.twitter.com/FaridSafi)! or [@xcapetir](https://www.twitter.com/xcapetir)!
+Feel free to ask me questions on Twitter [@0strich](https://www.twitter.com/0strich)! or [@xcapetir](https://www.twitter.com/xcapetir)!
 
 ## Contributors
 
@@ -544,7 +545,7 @@ Feel free to ask me questions on Twitter [@FaridSafi](https://www.twitter.com/Fa
 - Kfir Golan [kfiroo](https://github.com/kfiroo)
 - Bruno Cascio [brunocascio](https://github.com/brunocascio)
 - Xavier Carpentier [xcarpentier](https://github.com/xcarpentier)
-- [more](https://github.com/FaridSafi/react-native-gifted-chat/graphs/contributors)
+- [more](https://github.com/0strich/react-native-gifted-chat/graphs/contributors)
 
 ## Hire an expert!
 
