@@ -1,5 +1,5 @@
 {
-  "name": "react-native-gifted-chat",
+  "name": "0strich@react-native-gifted-chat",
   "version": "1.0.0",
   "description": "The most complete chat UI for React Native",
   "main": "lib/index.js",
@@ -18,7 +18,7 @@
     "message",
     "chat"
   ],
-  "author": "Farid Safi",
+  "author": "0strich",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/0strich/react-native-gifted-chat/issues"
